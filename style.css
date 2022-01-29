@@ -41,6 +41,7 @@ html{
 }
 
 h1, h2 {
+    font-family: "Blinker";
     font-weight: 700;
     text-align: right;
     line-height: 32px;
@@ -89,7 +90,7 @@ svg circle:hover{
 }
 
 a {
-    color: rgb(221, 0, 255);
+    color: rgb(86, 174, 255);
     text-decoration: none;
 }
 
