@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Raleway:wght@300&display=swap');
+
 html{
     background-color: White;
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, .7);
+    border-radius: 3px;
+    box-shadow: -3px 3px 15px #939393;
+    color: white;
+    padding: 6px;
+    font-family: "Raleway";
+    font-size: 1.1em;
+    max-width: 400px;
+    z-index: 100;
+}
+
+.categoryLegend {
+    font-family: "Blinker";
+}
+
+.step {
+    margin-bottom: 100px;
+    height: 700px;
+    font-family: "Blinker";
+    font-weight: 400;
+    line-height: 1.4em;
+    text-align: justify;
 }
