@@ -4,6 +4,15 @@ html{
     background-color: White;
 }
 
+#sections {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    top: 60px;
+    z-index: 90;
+    margin-right: 50px;
+}
+
 #tooltip {
     position: absolute;
     display: none;
@@ -29,4 +38,61 @@ html{
     font-weight: 400;
     line-height: 1.4em;
     text-align: justify;
+}
+
+h1, h2 {
+    font-weight: 700;
+    text-align: right;
+    line-height: 32px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+strong {
+    color: rgb(245, 155, 155);
+}
+
+#graphic {
+    margin: auto;
+    width: 1500px;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-around;
+}
+
+#vis {
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    margin-left: 0;
+    height: 1000px;
+    width: 1000px;
+}
+
+.tick line {
+    stroke: 'red'
+}
+
+svg circle:hover{
+    cursor: pointer;
+}
+
+.swatch {
+    fill: #939393;
+}
+
+.sizeLegend2 {
+    opacity: 0.7
+}
+
+a {
+    color: rgb(221, 0, 255);
+    text-decoration: none;
+}
+
+img {
+    display: none;
 }
