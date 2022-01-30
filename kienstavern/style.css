@@ -1,0 +1,51 @@
+html{
+    background-color: black;
+}
+
+h1{
+    font-size: 80px;
+    letter-spacing: 10px;
+    line-height: 75px
+}
+
+h2{
+    font-size: 30px;
+    text-align: left;
+    line-height: 0px;
+}
+
+a{
+    color: red;
+}
+
+button{
+    background-color: black;
+    padding: 25px 75px;
+    border: none;
+}
+
+.kt_font{
+    font-family: Trattatello;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.left{
+   text-align: left; 
+}
+
+.spaced{
+    letter-spacing: 30px;
+}
+
+.tabs{
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    line-height: 30px
+}
